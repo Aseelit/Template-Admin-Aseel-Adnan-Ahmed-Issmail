@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-<title>Bootstrap Example</title>
+<title>Blog List</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initialscale=1">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -9,6 +9,11 @@
 <link href="./scss/all.min.css" rel="stylesheet">
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <link href="./scss/min.css" rel="stylesheet">
+<link href="./scss/form/form.css" rel="stylesheet">
+<link href="bootstrap/style.css" rel="stylesheet">
+<link href="scss/card/card.css" rel="stylesheet">
+<link href="scss/card/blog.css" rel="stylesheet">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -479,15 +484,15 @@
                     </a>
                     <ul class="menu-content" aria-menue="dashboard" >
                         <li>
-                            <a class="nav-link d-flex align-items-center gap-4">
+                            <a class="nav-link d-flex align-items-center gap-4" href="./Blog-list.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
-                                <span class="menu-item text-truncate" data-i18n="Analytics">Analytics</span>
+                                <span class="menu-item text-truncate" >Dashboard 1</span>
                             </a>
                         </li>
                         <li>
-                            <a class="nav-link d-flex align-items-center gap-4">
+                            <a class="nav-link d-flex align-items-center gap-4" href="./Blog-list.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
-                                <span class="menu-item text-truncate">eComarce</span>
+                                <span class="menu-item text-truncate">Dashboard 2</span>
                             </a>
                         </li>
                         
@@ -508,7 +513,7 @@
                         <li>
                             <a class="nav-link d-flex align-items-center gap-4" href="./form-Element.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
-                                <span class="menu-item text-truncate" data-i18n="Analytics">Input</span>
+                                <span class="menu-item text-truncate">Input</span>
                             </a>
                         </li>
                         <li>
@@ -523,19 +528,40 @@
                                 <span class="menu-item text-truncate">Checkbox</span>
                             </a>
                         </li>
+                        <li>
+                            <a class="nav-link d-flex align-items-center gap-4" href="./form-switch.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
+                                <span class="menu-item text-truncate"> Switch</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link d-flex align-items-center gap-4" href="./form-teaxt-area.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
+                                <span class="menu-item text-truncate">Teaxt Area</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li class="nav-item sub-item">
+                    <a class="nav-link d-flex gap-3 has-sub" id="card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>                        <span class="menu-title  text-dark ">Card</span>
+                        <span class="menu-count position-absolute text-warning rounded-circle text-center"></span>
+                    </a>
+                    <ul class="menu-content" aria-menue="card" >
+                        <li>
+                            <a class="nav-link d-flex align-items-center gap-4" href="./card.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>                             <span class="menu-item text-truncate">Basic</span>
+                            </a>
+                        </li>
+                      
                         
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex gap-3 align-items-center ">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                        <span class="menu-title">Email</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link d-flex gap-3 align-items-center">
+                    <a class="nav-link d-flex gap-3 align-items-center" href="./Blog-list.html">
                         <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>        
-                        <span class="menu-title">Chat</span>
+                        <span class="menu-title">Blog</span>
                     </a>
                 </li>
                 
@@ -547,25 +573,556 @@
       <div class="container-fluid">
        <div class="content-header  col-12">
         <div class="breadcrumb-list d-flex align-items-center">
-            <nav class="breadcrumb-main" aria-label="breadcrumb" style="--bs-breadcrumb-divider:'|';">
+            <nav class="breadcrumb-main" aria-label="breadcrumb" style="--bs-breadcrumb-divider:'';">
                 <ol class="breadcrumb d-flex gap-1">
-                    <li class="breadcrumb-item active" aria-current="page"><h3>Layout Empty</h3></li>
+                    <li class="breadcrumb-item active border-0" aria-current="page"><h3>Blog</h3></li>
                 </ol>
             </nav>
-            <nav class=" d-none d-sm-block" aria-label="breadcrumb" style="--bs-breadcrumb-divider:'>';">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item " >Home</li>
-                    <li class="breadcrumb-item " >Layouts </li>
-                    <li class="breadcrumb-item active" aria-current="page">Layout Empty</li>
-                </ol>
-            </nav>
+          
            </div>
        </div>
        <div class="content-body col-12">
             <div class="row">
-               <div class="alert alert-primary font-small border-0" >
-                    <strong>Info</strong>: This layout can be useful for getting started with empty content section. Please check the Layout empty documentation  for more details.
+               
+              <div class="col-lg-8 col-md-12 rounded-1   flex-md-grow-1` ">
+               <div class="card post-main position-relative">
+                  <div class="post-header p-3 gap-3 d-flex align-items-center position-relative">
+                      <a href="">
+                       <img src="./assets/team/03.jpg" class="rounded-circle" style="width: 50px;" alt="aseel adnan">
+                      </a>
+                      <div class="state-post d-flex flex-column">
+                          <span class="user-post">aseel adnan</span>
+                          <span class="time-post text-primary font-small">1 hour ago</span>
+                      </div>
+                      <div class="dropdown position-absolute" style="right: 0;">
+                          <a class="btn" data-bs-toggle="dropdown">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-end  post-menu">
+                            <li><a href="#" class="dropdown-item d-flex align-items-start  gap-2 p-3 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save mt-1"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+                                <div class="item d-flex flex-column gap-1 align-items-start">
+                                    <span class="hover-primary">save</span>
+                                    <span>Add this to your saved items</span>
+                                </div>
+                            </a></li>
+                            <li><a href="#" class="dropdown-item d-flex align-items-start  gap-2 p-3 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>                                <div class="item d-flex flex-column gap-1 align-items-start">
+                                    <span class="hover-primary">download</span>
+                                </div>
+                            </a></li>
+                            <li><a href="#" class="dropdown-item d-flex align-items-start  gap-2 p-3 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                                 <div class="item d-flex flex-column gap-1 align-items-start">
+                                    <span class="hover-primary">hide</span>
+                                </div>
+                            </a></li>
+                            
+                            
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="card-body">
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla dolor,
+                         ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis pharetra.
+                         Proin blandit ac massa sed rhoncus
+                      </p>
+                      <img src="./assets/card/course-02.jpg" style="width: 100%;">
+                      <ul class="action-post">
+                        <div class="d-flex align-items-center gap-3">
+                            <li class="dropup"><a href="" data-bs-toggle="dropdown">
+                                <img src="./assets/icon/01.png"></a>
+                              <ul class="dropdown-menu dropdown-menu-top  rounded-4 border-0 p-2">
+                                  <div class="d-flex justify-content-start align-items-center gap-3 ">
+                                  <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="like">
+                                      <img src="./assets/icon/01.png"></a>
+                                        </a></li>
+                                  <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="love">
+                                <img src="./assets/icon/02.png"></a>
+                                  </a></li>
+                                  <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="happy">
+                                      <img src="./assets/icon/03.png"></a>
+                                  </a></li>
+                                  <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="like">
+                                      <img src="./assets/icon/03.png"></a>
+                                  </a></li>
+                                  <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Hahh">
+                                      <img src="./assets/icon/04.png"></a>
+                                  </a></li>
+                                  <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="think">
+                                      <img src="./assets/icon/05.png"></a>
+                                  </a></li>
+                                  <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="sade">
+                                      <img src="./assets/icon/06.png"></a>
+                                  </a></li>
+                                  <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="lovely">
+                                      <img src="./assets/icon/07.png"></a>
+                                  </a></li>
+                                  </div>
+                              </ul>
+                              </li>
+                            <li class="dropdown"><a href="" class="text-secondary text-decoration-none font-small" data-bs-toggle="dropdown">140 likes</a>
+                              <ul class="dropdown-menu dropdown-menu-top  rounded-4 border-0 p-2 bg-secondary">
+                                 <div class="d-flex flex-column">
+                                     <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Aseel Adnan</a></li>
+                                     <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">ahmed Adnan</a></li>
+                                     <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Amgad Adnan</a></li>
+                                 </div>
+                              </ul>
+                          </li>
+                            <li class="dropdown"><a href="" class="text-secondary text-decoration-none font-small" data-bs-toggle="dropdown">20 comment</a>
+                              <ul class="dropdown-menu dropdown-menu-top  rounded-4 border-0 p-2 bg-secondary">
+                                  <div class="d-flex flex-column">
+                                      <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Aseel Adnan</a></li>
+                                      <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">ahmed Adnan</a></li>
+                                      <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Amgad Adnan</a></li>
+                                  </div>
+                               </ul>
+                              </li>
+                        </div>
+                      </ul>
+                      <div class="comment">
+                          <ul class="menu-comment pd-l-0">
+                              <li class="menu-comment-item d-flex justify-content-start align-items-start  gap-4">
+                                  <a href="">
+                                  <img src="./assets/team/04.jpg" class="rounded-circle" style="width: 40px;" alt="ahmed">
+                                  </a>
+                                  <div class=" d-flex flex-column">
+                                      <span class="comment-user">Aseel Nadira</span>
+                                      <p class="comment-body color-text-blog font-small">
+                                        Lorem ipsum dolor sit amet
+                                      </p>
+                                      <div class="action-comment">
+                                          <ul class="d-flex gap-2 justify-content-start pd-l-0" >
+                                              <li><a href="" class=" text-decoration-none text-primary">Like</a></li>
+                                              <li><a href="" class=" text-decoration-none text-primary">Replay</a></li>
+                                              <li><a href="" class=" text-decoration-none text-primary">Translate</a></li>
+                                              <li><span class="color-text-blog font-small">5 min</span></li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                               
+                              </li>
+                              
+                          </ul>
+                      </div>
+                      <div class="create-comment">
+                        <form action="" class="form-basic position-relative">
+                        <input type="text" class="form-control" placeholder="Enter Your Comment">
+                        <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-camera"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                        </a>
+                        <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </a>
+                        </form>
+                    </div>
+                  </div>
                </div>
+               <div class="card post-main position-relative mt-3">
+                <div class="post-header p-3 gap-3 d-flex align-items-center position-relative">
+                    <a href="">
+                     <img src="./assets/team/03.jpg" class="rounded-circle" style="width: 50px;" alt="aseel adnan">
+                    </a>
+                    <div class="state-post d-flex flex-column">
+                        <span class="user-post">aseel adnan</span>
+                        <span class="time-post text-primary font-small">1 hour ago</span>
+                    </div>
+                    <div class="dropdown position-absolute" style="right: 0;">
+                        <a class="btn" data-bs-toggle="dropdown">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end  post-menu">
+                          <li><a href="#" class="dropdown-item d-flex align-items-start  gap-2 p-3 ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save mt-1"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+                              <div class="item d-flex flex-column gap-1 align-items-start">
+                                  <span class="hover-primary">save</span>
+                                  <span>Add this to your saved items</span>
+                              </div>
+                          </a></li>
+                          <li><a href="#" class="dropdown-item d-flex align-items-start  gap-2 p-3 ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>                                <div class="item d-flex flex-column gap-1 align-items-start">
+                                  <span class="hover-primary">download</span>
+                              </div>
+                          </a></li>
+                          <li><a href="#" class="dropdown-item d-flex align-items-start  gap-2 p-3 ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                               <div class="item d-flex flex-column gap-1 align-items-start">
+                                  <span class="hover-primary">hide</span>
+                              </div>
+                          </a></li>
+                          
+                          
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla dolor,
+                       ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis pharetra.
+                       Proin blandit ac massa sed rhoncus
+                    </p>
+                    <div class="d-flex gap-4 flex-wrap">
+                        <div class="col-lg-3 col-md-12">
+                            <img src="./assets/card/p2.jpg" style="max-width: 100%;max-height: 100%">
+                        </div>
+                        <div class="col-lg-3 col-md-12 ">
+                            <img src="./assets/card/p2.jpg" style="max-width: 100%;max-height: 100%">
+                              </div>
+                        <div class="col-lg-3 col-md-12 flex-grow-1 ">
+                      <img src="./assets/card/course-01.jpg" style="max-width: 100%;max-height: 100%">
+                        </div>
+                   
+                    </div>
+                    <ul class="action-post">
+                      <div class="d-flex align-items-center gap-3">
+                          <li class="dropup"><a href="" data-bs-toggle="dropdown">
+                              <img src="./assets/icon/01.png"></a>
+                            <ul class="dropdown-menu dropdown-menu-top  rounded-4 border-0 p-2">
+                                <div class="d-flex justify-content-start align-items-center gap-3 ">
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="like">
+                                    <img src="./assets/icon/01.png"></a>
+                                      </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="love">
+                              <img src="./assets/icon/02.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="happy">
+                                    <img src="./assets/icon/03.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="like">
+                                    <img src="./assets/icon/03.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Hahh">
+                                    <img src="./assets/icon/04.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="think">
+                                    <img src="./assets/icon/05.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="sade">
+                                    <img src="./assets/icon/06.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="lovely">
+                                    <img src="./assets/icon/07.png"></a>
+                                </a></li>
+                                </div>
+                            </ul>
+                            </li>
+                          <li class="dropdown"><a href="" class="text-secondary text-decoration-none font-small" data-bs-toggle="dropdown">140 likes</a>
+                            <ul class="dropdown-menu dropdown-menu-top  rounded-4 border-0 p-2 bg-secondary">
+                               <div class="d-flex flex-column">
+                                   <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Aseel Adnan</a></li>
+                                   <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">ahmed Adnan</a></li>
+                                   <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Amgad Adnan</a></li>
+                               </div>
+                            </ul>
+                        </li>
+                          <li class="dropdown"><a href="" class="text-secondary text-decoration-none font-small" data-bs-toggle="dropdown">20 comment</a>
+                            <ul class="dropdown-menu dropdown-menu-top  rounded-4 border-0 p-2 bg-secondary">
+                                <div class="d-flex flex-column">
+                                    <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Aseel Adnan</a></li>
+                                    <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">ahmed Adnan</a></li>
+                                    <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Amgad Adnan</a></li>
+                                </div>
+                             </ul>
+                            </li>
+                      </div>
+                    </ul>
+                    <div class="comment">
+                        <ul class="menu-comment pd-l-0">
+                            <li class="menu-comment-item d-flex justify-content-start align-items-start mb-3  gap-4">
+                                <a href="">
+                                <img src="./assets/team/05.jpg" class="rounded-circle" style="width: 40px;" alt="ahmed">
+                                </a>
+                                <div class=" d-flex flex-column">
+                                    <span class="comment-user">Aseel Nadira</span>
+                                    <p class="comment-body color-text-blog font-small">
+                                      Lorem ipsum dolor sit amet
+                                    </p>
+                                    <div class="action-comment">
+                                        <ul class="d-flex gap-2 justify-content-start pd-l-0" >
+                                            <li><a href="" class=" text-decoration-none text-primary">Like</a></li>
+                                            <li><a href="" class=" text-decoration-none text-primary">Replay</a></li>
+                                            <li><a href="" class=" text-decoration-none text-primary">Translate</a></li>
+                                            <li><span class="color-text-blog font-small">5 min</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                             
+                            </li>
+                            <li class="menu-comment-item d-flex justify-content-start align-items-start mb-3  gap-4">
+                                <a href="">
+                                <img src="./assets/team/07.jpg" class="rounded-circle" style="width: 40px;" alt="ahmed">
+                                </a>
+                                <div class=" d-flex flex-column">
+                                    <span class="comment-user">ahmed Nadira</span>
+                                    <p class="comment-body color-text-blog font-small">
+                                      Lorem ipsum dolor sit amet
+                                    </p>
+                                    <div class="action-comment">
+                                        <ul class="d-flex gap-2 justify-content-start pd-l-0" >
+                                            <li><a href="" class=" text-decoration-none text-primary">Like</a></li>
+                                            <li><a href="" class=" text-decoration-none text-primary">Replay</a></li>
+                                            <li><a href="" class=" text-decoration-none text-primary">Translate</a></li>
+                                            <li><span class="color-text-blog font-small">5 min</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                             
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="create-comment">
+                        <form action="" class="form-basic position-relative">
+                        <input type="text" class="form-control" placeholder="Enter Your Comment">
+                        <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-camera"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                        </a>
+                        <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+             </div>
+             <!-- post not has image -->
+             <div class="card post-main position-relative mt-3">
+                <div class="post-header p-3 gap-3 d-flex align-items-center position-relative">
+                    <a href="">
+                     <img src="./assets/team/03.jpg" class="rounded-circle" style="width: 50px;" alt="aseel adnan">
+                    </a>
+                    <div class="state-post d-flex flex-column">
+                        <span class="user-post">aseel adnan</span>
+                        <span class="time-post text-primary font-small">1 hour ago</span>
+                    </div>
+                    <div class="dropdown position-absolute" style="right: 0;">
+                        <a class="btn" data-bs-toggle="dropdown">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end  post-menu">
+                          <li><a href="#" class="dropdown-item d-flex align-items-start  gap-2 p-3 ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-save mt-1"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path><polyline points="17 21 17 13 7 13 7 21"></polyline><polyline points="7 3 7 8 15 8"></polyline></svg>
+                              <div class="item d-flex flex-column gap-1 align-items-start">
+                                  <span class="hover-primary">save</span>
+                                  <span>Add this to your saved items</span>
+                              </div>
+                          </a></li>
+                          <li><a href="#" class="dropdown-item d-flex align-items-start  gap-2 p-3 ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>                                <div class="item d-flex flex-column gap-1 align-items-start">
+                                  <span class="hover-primary">download</span>
+                              </div>
+                          </a></li>
+                          <li><a href="#" class="dropdown-item d-flex align-items-start  gap-2 p-3 ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                               <div class="item d-flex flex-column gap-1 align-items-start">
+                                  <span class="hover-primary">hide</span>
+                              </div>
+                          </a></li>
+                          
+                          
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla dolor,
+                       ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis pharetra.
+                       Proin blandit ac massa sed rhoncus
+                    </p>
+                    
+                    <ul class="action-post">
+                      <div class="d-flex align-items-center gap-3">
+                          <li class="dropup"><a href="" data-bs-toggle="dropdown">
+                              <img src="./assets/icon/01.png"></a>
+                            <ul class="dropdown-menu dropdown-menu-top  rounded-4 border-0 p-2">
+                                <div class="d-flex justify-content-start align-items-center gap-3 ">
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="like">
+                                    <img src="./assets/icon/01.png"></a>
+                                      </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="love">
+                              <img src="./assets/icon/02.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="happy">
+                                    <img src="./assets/icon/03.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="like">
+                                    <img src="./assets/icon/03.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Hahh">
+                                    <img src="./assets/icon/04.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="think">
+                                    <img src="./assets/icon/05.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="sade">
+                                    <img src="./assets/icon/06.png"></a>
+                                </a></li>
+                                <li><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="lovely">
+                                    <img src="./assets/icon/07.png"></a>
+                                </a></li>
+                                </div>
+                            </ul>
+                            </li>
+                          <li class="dropdown"><a href="" class="text-secondary text-decoration-none font-small" data-bs-toggle="dropdown">140 likes</a>
+                            <ul class="dropdown-menu dropdown-menu-top  rounded-4 border-0 p-2 bg-secondary">
+                               <div class="d-flex flex-column">
+                                   <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Aseel Adnan</a></li>
+                                   <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">ahmed Adnan</a></li>
+                                   <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Amgad Adnan</a></li>
+                               </div>
+                            </ul>
+                        </li>
+                          <li class="dropdown"><a href="" class="text-secondary text-decoration-none font-small" data-bs-toggle="dropdown">20 comment</a>
+                            <ul class="dropdown-menu dropdown-menu-top  rounded-4 border-0 p-2 bg-secondary">
+                                <div class="d-flex flex-column">
+                                    <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Aseel Adnan</a></li>
+                                    <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">ahmed Adnan</a></li>
+                                    <li class="p-1"><a href="#" class="text-decoration-none text-white font-small">Amgad Adnan</a></li>
+                                </div>
+                             </ul>
+                            </li>
+                      </div>
+                    </ul>
+                    <div class="comment">
+                        <ul class="menu-comment pd-l-0">
+                            <li class="menu-comment-item d-flex justify-content-start align-items-start mb-3  gap-4">
+                                <a href="">
+                                <img src="./assets/team/05.jpg" class="rounded-circle" style="width: 40px;" alt="ahmed">
+                                </a>
+                                <div class=" d-flex flex-column">
+                                    <span class="comment-user">Amjad Nadira</span>
+                                    <p class="comment-body color-text-blog font-small">
+                                      Lorem ipsum dolor sit amet
+                                    </p>
+                                    <div class="action-comment">
+                                        <ul class="d-flex gap-2 justify-content-start pd-l-0" >
+                                            <li><a href="" class=" text-decoration-none text-primary">Like</a></li>
+                                            <li><a href="" class=" text-decoration-none text-primary">Replay</a></li>
+                                            <li><a href="" class=" text-decoration-none text-primary">Translate</a></li>
+                                            <li><span class="color-text-blog font-small">5 min</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                             
+                            </li>
+                            <li class="menu-comment-item d-flex justify-content-start align-items-start mb-3  gap-4">
+                                <a href="">
+                                <img src="./assets/team/07.jpg" class="rounded-circle" style="width: 40px;" alt="ahmed">
+                                </a>
+                                <div class=" d-flex flex-column">
+                                    <span class="comment-user">ahmed Nadira</span>
+                                    <p class="comment-body color-text-blog font-small">
+                                      Lorem ipsum dolor sit amet
+                                    </p>
+                                    <div class="action-comment">
+                                        <ul class="d-flex gap-2 justify-content-start pd-l-0" >
+                                            <li><a href="" class=" text-decoration-none text-primary">Like</a></li>
+                                            <li><a href="" class=" text-decoration-none text-primary">Replay</a></li>
+                                            <li><a href="" class=" text-decoration-none text-primary">Translate</a></li>
+                                            <li><span class="color-text-blog font-small">5 min</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                             
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="create-comment">
+                        <form action="" class="form-basic position-relative">
+                        <input type="text" class="form-control" placeholder="Enter Your Comment">
+                        <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-camera"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                        </a>
+                        <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </a>
+                        </form>
+                    </div>
+                </div>
+             </div>
+             <!-- end post not has image -->
+              </div>
+               <div class="col-lg-4 d-md-none d-sm-none d-lg-block rounded-1  flex-md-grow-0 ">
+                <div class="card blog-new form-basic position-relative">
+                  <div class="card-header position-relative">
+                      <input type="search" class="form-control" placeholder="search here">
+                      <span class="st-icon-search position-absolute">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search "><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                      </span>
+                  </div>
+                  <div class="card-body">
+                      <span class="card-title">
+                        RECENT POSTS
+                      </span>
+                      <div class="blog-list-new d-flex justify-content-between align-items-center gap-4 mb-3">
+                          <a href="">
+                            <img src="./assets/card/course-01.jpg" class="" alt="">
+                          </a>
+                          <div class="text-blog-new  d-flex flex-column gap-1">
+                              <span class="text-question">
+                            Why Should Forget Facebook?
+                              </span>
+                              <span class="text-date">an 14 2020</span>
+                          </div>
+                      </div>
+                      <div class="blog-list-new d-flex justify-content-between align-items-center gap-4 mb-3">
+                         <a href="">
+                            <img src="./assets/card/course-02.jpg" class="" alt="">
+                         </a>
+                        <div class="text-blog-new  d-flex flex-column gap-1">
+                            <span class="text-question">
+                          Why Should Forget Facebook?
+                            </span>
+                            <span class="text-date">an 14 2020</span>
+                        </div>
+                    </div>
+                    <div class="blog-list-new d-flex justify-content-between align-items-center gap-4 mb-3">
+                         <a href="">
+                            <img src="./assets/card/course-03.jpg" class="" alt="">
+                         </a>
+                        <div class="text-blog-new  d-flex flex-column gap-1">
+                            <span class="text-question">
+                          Why Should Forget Facebook?
+                            </span>
+                            <span class="text-date">an 14 2020</span>
+                        </div>
+                    </div>
+                    <div class="blog-list-new d-flex justify-content-between align-items-center gap-4 mb-3">
+                         <a href="">
+                            <img src="./assets/card/course-04.jpg" class="" alt="">
+                         </a>
+                        <div class="text-blog-new  d-flex flex-column gap-1">
+                            <span class="text-question">
+                          Why Should Forget Facebook?
+                            </span>
+                            <span class="text-date">an 14 2020</span>
+                        </div>
+                    </div>
+                    <div class="blog-list-new d-flex justify-content-between align-items-center gap-4 mb-3">
+                         <a href="">
+                            <img src="./assets/card/course-05.jpg" class="" alt="">
+                         </a>
+                        <div class="text-blog-new  d-flex flex-column gap-1">
+                            <span class="text-question">
+                          Why Should Forget Facebook?
+                            </span>
+                            <span class="text-date">an 14 2020</span>
+                        </div>
+                    </div>
+                      
+                      
+                      
+
+                  </div>
+                </div>
+               </div>
+              
         </div>
     </div>
        </div>

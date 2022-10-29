@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Form-Element</title>
+<title>Bootstrap Example</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initialscale=1">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -9,7 +9,6 @@
 <link href="./scss/all.min.css" rel="stylesheet">
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <link href="./scss/min.css" rel="stylesheet">
-<link href="./scss/form/form.css" rel="stylesheet">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -480,15 +479,15 @@
                     </a>
                     <ul class="menu-content" aria-menue="dashboard" >
                         <li>
-                            <a class="nav-link d-flex align-items-center gap-4" href="./Blog-list.html">
+                            <a class="nav-link d-flex align-items-center gap-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
-                                <span class="menu-item text-truncate" >Dashboard 1</span>
+                                <span class="menu-item text-truncate" data-i18n="Analytics">Analytics</span>
                             </a>
                         </li>
                         <li>
-                            <a class="nav-link d-flex align-items-center gap-4" href="./Blog-list.html">
+                            <a class="nav-link d-flex align-items-center gap-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
-                                <span class="menu-item text-truncate">Dashboard 2</span>
+                                <span class="menu-item text-truncate">eComarce</span>
                             </a>
                         </li>
                         
@@ -509,7 +508,7 @@
                         <li>
                             <a class="nav-link d-flex align-items-center gap-4" href="./form-Element.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
-                                <span class="menu-item text-truncate">Input</span>
+                                <span class="menu-item text-truncate" data-i18n="Analytics">Input</span>
                             </a>
                         </li>
                         <li>
@@ -524,40 +523,19 @@
                                 <span class="menu-item text-truncate">Checkbox</span>
                             </a>
                         </li>
-                        <li>
-                            <a class="nav-link d-flex align-items-center gap-4" href="./form-switch.html">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
-                                <span class="menu-item text-truncate"> Switch</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link d-flex align-items-center gap-4" href="./form-teaxt-area.html">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
-                                <span class="menu-item text-truncate">Teaxt Area</span>
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </li>
-                <li class="nav-item sub-item">
-                    <a class="nav-link d-flex gap-3 has-sub" id="card">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>                        <span class="menu-title  text-dark ">Card</span>
-                        <span class="menu-count position-absolute text-warning rounded-circle text-center"></span>
-                    </a>
-                    <ul class="menu-content" aria-menue="card" >
-                        <li>
-                            <a class="nav-link d-flex align-items-center gap-4" href="./card.html">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>                             <span class="menu-item text-truncate">Basic</span>
-                            </a>
-                        </li>
-                      
                         
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex gap-3 align-items-center" href="./Blog-list.html">
+                    <a class="nav-link d-flex gap-3 align-items-center ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                        <span class="menu-title">Email</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex gap-3 align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>        
-                        <span class="menu-title">Blog</span>
+                        <span class="menu-title">Chat</span>
                     </a>
                 </li>
                 
@@ -571,207 +549,23 @@
         <div class="breadcrumb-list d-flex align-items-center">
             <nav class="breadcrumb-main" aria-label="breadcrumb" style="--bs-breadcrumb-divider:'|';">
                 <ol class="breadcrumb d-flex gap-1">
-                    <li class="breadcrumb-item active" aria-current="page"><h3>Form Element</h3></li>
+                    <li class="breadcrumb-item active" aria-current="page"><h3>Layout Empty</h3></li>
                 </ol>
             </nav>
             <nav class=" d-none d-sm-block" aria-label="breadcrumb" style="--bs-breadcrumb-divider:'>';">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item " >Home</li>
-                    <li class="breadcrumb-item " >Form Elements</li>
-                    <li class="breadcrumb-item active" aria-current="page">Input</li>
+                    <li class="breadcrumb-item " >Layouts </li>
+                    <li class="breadcrumb-item active" aria-current="page">Layout Empty</li>
                 </ol>
             </nav>
            </div>
        </div>
        <div class="content-body col-12">
             <div class="row">
-                <div class="col-12">
-                     <div class="form">
-                        <div class="card">
-                            <h5 class="card-title">
-                                Basic Inputs
-                            </h5>
-                            <div class="card-body">
-                               <!-- <div class="card-text">
-                                For different sizes of Input, Use classes like <span class="class-expl">.form-control-lg </span> & .form-control-sm for Large, Small input box.
-                               </div> -->
-                               <form class="form-basic">
-                                    <div class="row"> 
-                                        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 flex-grow-1">
-                                            <label for="basicInput">basicInput</label>
-                                            <input class="form-control" type="text" placeholder="enter email" id="basicInput">
-                                    </div>
-                                        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 flex-grow-1">
-                                            <label for="helpInput">Input text with help</label>
-                                            <input class="form-control" type="text" id="helpInput">
-                                    </div>
-                                        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 flex-grow-1">
-                                            <label for="disabledInput">Disabled Input</label>
-                                            <input class="form-control" type="text" class="back-gray" id="disabledInput" disabled="">
-                                    </div>
-                                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 flex-grow-1">
-                                            <label for="helperText">With Helper Text</label>
-                                            <input class="form-control" type="text" placeholder="Name" id="helperText">
-                                    </div>
-                                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 flex-grow-1">
-                                            <label for="readonlyinput">Read Only</label>
-                                            <input class="form-control" type="text" class="back-gray" placeholder="enter email" id="readonlyinput" readonly="" value="You can't update me :P">
-                                    </div>
-                                    <div class="col-md-3 col-lg-3 col-sm-12 flex-grow-1">
-                                            <label for="basicInput">Readonly Static Text </label>
-                                            <input class="form-control" type="text" id="basicInput" class="form-readonly-static" readonly="" value="email@pixinvent.com">
-                                    </div>
-                                        
-                                    </div>    
-                                </form>
-                            </div>
-                    </div>
-                     </div>
-                </div>
-              <div class="col-12 mt-4">
-               <div class="row">
-                <div class="form col-xl-6 d-flex col-md-12">
-                    <div class="card">
-                        <h5 class="card-title">
-                            Size Option
-                        </h5>
-                        <div class="card-body">
-                           <div class="card-text">
-                            For different sizes of Input, Use classes like <span class="class-expl">.form-control-lg </span> & .form-control-sm for Large, Small input box.
-                           </div>
-                           <form class="form-size mt-3">
-                                <div class="row"> 
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 flex-grow-1">
-                                        <label for="basicInput">Large</label>
-                                        <input class="form-control form-control-lg" type="text" placeholder="large Input" id="basicInput">
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 flex-grow-1">
-                                        <label for="helpInput">Defult</label>
-                                        <input class="form-control" type="text" id="helpInput" placeholder="Defult Input">
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 flex-grow-1">
-                                    <label for="helpInput">Input text with help</label>
-                                    <input class="form-control form-control-sm" type="text" id="helpInput" placeholder="Small Input">
-                            </div>
-                                
-                                    
-                                </div>    
-                            </form>
-                        </div>
-                </div>
-                 </div>
-                 <div class="form col-xl-6 d-flex col-md-12 mt-md-3 mt-lg-0">
-                    <div class="card">
-                        <h5 class="card-title">
-                            Horizontal form label sizing
-                        </h5>
-                        <div class="card-body">
-                           <div class="card-text">
-                            For different sizes of Input, Use classes like <span class="class-expl">.form-control-lg </span> & .form-control-sm for Large, Small input box.
-                           </div>
-                           <form class="form-size mt-3">
-                            <div class="row"> 
-                            <div class="d-flex align-items-center gap-5">
-                                    <label for="basicInput" class="col-form-label">Large</label>
-                                    <input class="form-control form-control-lg" type="text" placeholder="large Input" id="basicInput">
-                            </div>
-                            <div class="d-flex align-items-center gap-5">
-                                    <label for="helpInput"  class="col-form-label">Defult</label>
-                                    <input class="form-control" type="text" id="helpInput" placeholder="Defult Input">
-                            </div>
-                            <div class="d-flex align-items-center gap-5">
-                                <label for="helpInput"  class="col-form-label">small</label>
-                                <input class="form-control form-control-sm" type="text" 
-                                      id="helpInput" placeholder="Small Input" >
-                        </div>
-                            
-                                
-                            </div>    
-                        </form>
-                        </div>
-                </div>
-                 </div>
+               <div class="alert alert-primary font-small border-0" >
+                    <strong>Info</strong>: This layout can be useful for getting started with empty content section. Please check the Layout empty documentation  for more details.
                </div>
-                 
-              </div>
-              <div class="form col-12 mt-3">
-                    <div class="card">
-                        <h5 class="card-title">
-                            Input Validation States
-                        </h5>
-                        <div class="card-body">
-                           <div class="card-text pb-4">
-                            You can indicate invalid and valid form fields with  <span class="class-expl">.is-invalid</span> and .is-valid. Note that .invalid-feedback is also supported with these classes.
-
-                           </div>
-                           <form class="form-basic">
-                                <div class="row"> 
-                                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-5 flex-grow-1">
-                                        <label for="basicInput">Valid State</label>
-                                        <input class="form-control is-valid" type="text" placeholder="Valid" id="basicInput">
-                                        <h3 class="valid-feedback text-success">This is valid state.</h3>
-                                </div>
-                                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-5 flex-grow-1">
-                                        <label for="helpInput">Invalid State</label>
-                                        <input class="form-control is-invalid" type="text" placeholder="Isnvalid" id="helpInput">
-                                        <h3 class="valid-feedback text-danger" style="display: block;">This is invalid state.</h3>
-                                </div>
-                                    
-                                </div>    
-                            </form>
-                        </div>
-                </div>
-              </div>
-           <div class="form col-12 mt-3">
-                <div class="card">
-                    <h5 class="card-title">
-                        Input Validation States with Tooltips
-                    </h5>
-                    <div class="card-body">
-                       <div class="card-text pb-4">
-                        <span class="class-expl">.{valid/invalid}-feedback</span> classes for .{valid/invalid}-tooltip classes to display validation feedback in a styled tooltip.
-                       </div>
-                       <form class="row g-3 needs-validation" >
-                        <div class="col-md-4 position-relative">
-                          <label for="validationTooltip01" class="form-label">First name</label>
-                          <input type="text" class="form-control " name="name" id="validationTooltip01" required value="Mark" >
-                          <div class="valid-tooltip">
-                            Looks good!
-                          </div>
-                          <div class="invalid-tooltip">
-                            Please provide a valid Name.
-                          </div>
-                        </div>
-                        <div class="col-md-4 position-relative">
-                          <label for="validationTooltip03" class="form-label">Last Name</label>
-                          <input type="text" class="form-control" id="validationTooltip03" name="city" required >
-                          <div class="invalid-tooltip">
-                            Please provide a valid Last Name.
-                          </div>
-                          <div class="valid-tooltip">
-                           Look Good?
-                          </div>
-                        </div>
-
-                        <div class="col-md-4 position-relative">
-                            <label for="validationTooltip03" class="form-label">City</label>
-                            <input type="text" class="form-control" id="validationTooltip03" name="city" required >
-                            <div class="invalid-tooltip">
-                              Please provide a valid city.
-                            </div>
-                            <div class="valid-tooltip">
-                              Look Good?
-                              </div>
-                          </div>
-                     
-                        <div class="col-12">
-                          <button class="btn btn-primary" type="submit">Submit form</button>
-                        </div>
-                      </form>
-                    </div>
-            </div>
-          </div>
-              
         </div>
     </div>
        </div>
