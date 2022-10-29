@@ -1,0 +1,86 @@
+@import "./form-basic";
+$text-color: #5e5873;
+$border: #ebe9f1;
+%input-hover {
+  padding-left: 5px;
+  transition: 0.6s;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.form {
+  .card {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 3px 2px 12px 2px #22292f1a;
+    padding: 20px 22px;
+    gap: 20px;
+    .card-title {
+      color: $text-color;
+      font-size: 20px;
+    }
+    .card-body {
+      padding: 0;
+      .card-text {
+        color: #777;
+        font-size: 15px;
+        .class-expl {
+          font-weight: 700;
+          background-color: #efefdf;
+          padding: 1px 2px;
+          color: #d63384;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+.input-group {
+  & {
+  border: 1px solid $border;
+  transition: 0.6s;
+  .form-control {
+    &:focus::placeholder {
+    @extend %input-hover ;
+    }
+    &::placeholder {
+      color:  #777;
+      font-size: 14px;
+    }
+    }
+  }
+ 
+  .form-control {
+    border: none;
+    transition: 0.6s;
+    &.form-hover {
+        border-right: 1px solid #7367f0;
+        border-left: 1px solid #7367f0;
+    }
+    &.check {
+      border-right: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+    }
+  }
+
+  .input-group-text {
+    background-color: white;
+    color: #626161;
+    border: none;
+    .bg-ccc {
+      background-color: #ccc;
+    }
+
+  }
+}
+.marged {
+  color: red;   
+}
+.input-group .btn {
+  border-radius: 3px;
+}
+
+.input-group .hover-primary-dropdown:hover {
+  background-color: #7367f04a;
+  color: blue;
+}

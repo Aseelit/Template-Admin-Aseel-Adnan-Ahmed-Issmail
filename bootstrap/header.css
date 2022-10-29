@@ -1,0 +1,59 @@
+html body {
+    height: 100%;
+    background-color: #F8F8F8;
+    direction: ltr;
+}
+
+.header-navbar.floating-nav {
+    position: fixed;
+    right: 0;
+    margin: 1.3rem auto 0;
+    width: calc(100vw - (100vw - 100%) - calc(2rem * 2) - 260px);
+    border-radius: 0.428rem;
+    z-index: 12;
+}
+.card, .header-navbar.navbar-shadow
+{
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+.header-navbar.floating-nav {
+    position: fixed;
+    right: 0;
+    margin: 1.3rem auto 0;
+    width: calc(100vw - (100vw - 100%) - calc(2rem * 2) - 260px);
+    border-radius: 0.428rem;
+    z-index: 12;
+}
+.header-navbar.fixed-top, .header-navbar.floating-nav {
+    left: 260px;
+}
+.navbar-light, .navbar-light.navbar-horizontal {
+    background: #FFF;
+}
+.header-navbar {
+    padding: 0;
+    min-height: 4.45rem;
+    font-family: Montserrat,Helvetica,Arial,serif;
+    transition: .3s ease all,background 0s;
+}
+
+.navbar-floating .navbar-container:not(.main-menu-content) {
+    padding: 0.8rem 1rem;
+}
+.header-navbar .navbar-container {
+    padding: 0.8rem 1rem;
+    flex-basis: 100%;
+    transition: .3s ease all;
+    margin-left: 0;
+}
+.header-navbar.floating-nav {
+    position: fixed;
+    right: 0;
+    margin: 1.3rem auto 0;
+    width: calc(100vw - (100vw - 100%) - calc(2rem * 2) - 260px);
+    border-radius: 0.428rem;
+    z-index: 12;
+}
+.header-navbar.fixed-top, .header-navbar.floating-nav {
+    left: 260px;
+}

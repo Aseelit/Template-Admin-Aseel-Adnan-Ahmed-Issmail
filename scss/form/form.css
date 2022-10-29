@@ -1,0 +1,189 @@
+.form-basic label, .form-size .row label {
+  color: #818183;
+  font-size: 15px;
+}
+
+.form-basic {
+  padding-bottom: 20px;
+}
+
+.form-basic .row {
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+  row-gap: 20px;
+}
+
+.form-basic .form-control {
+  margin-top: 2px;
+}
+
+.form-basic .form-control::-webkit-input-placeholder {
+  color: #777;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.form-basic .form-control:-ms-input-placeholder {
+  color: #777;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.form-basic .form-control::-ms-input-placeholder {
+  color: #777;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.form-basic .form-control::placeholder {
+  color: #777;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.form-basic .form-control:focus::-webkit-input-placeholder {
+  padding-left: 4px;
+}
+
+.form-basic .form-control:focus:-ms-input-placeholder {
+  padding-left: 4px;
+}
+
+.form-basic .form-control:focus::-ms-input-placeholder {
+  padding-left: 4px;
+}
+
+.form-basic .form-control:focus::placeholder {
+  padding-left: 4px;
+}
+
+.form-size .row {
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+  row-gap: 20px;
+}
+
+.input-group .form-control:focus::-webkit-input-placeholder {
+  padding-left: 5px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.input-group .form-control:focus:-ms-input-placeholder {
+  padding-left: 5px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.input-group .form-control:focus::-ms-input-placeholder {
+  padding-left: 5px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.input-group .form-control:focus::placeholder {
+  padding-left: 5px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.form .card {
+  border: 0;
+  border-radius: 4px;
+  -webkit-box-shadow: 3px 2px 12px 2px #22292f1a;
+          box-shadow: 3px 2px 12px 2px #22292f1a;
+  padding: 20px 22px;
+  gap: 20px;
+}
+
+.form .card .card-title {
+  color: #5e5873;
+  font-size: 20px;
+}
+
+.form .card .card-body {
+  padding: 0;
+}
+
+.form .card .card-body .card-text {
+  color: #777;
+  font-size: 15px;
+}
+
+.form .card .card-body .card-text .class-expl {
+  font-weight: 700;
+  background-color: #efefdf;
+  padding: 1px 2px;
+  color: #d63384;
+  border-radius: 2px;
+}
+
+.input-group {
+  border: 1px solid #ebe9f1;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.input-group .form-control::-webkit-input-placeholder {
+  color: #777;
+  font-size: 14px;
+}
+
+.input-group .form-control:-ms-input-placeholder {
+  color: #777;
+  font-size: 14px;
+}
+
+.input-group .form-control::-ms-input-placeholder {
+  color: #777;
+  font-size: 14px;
+}
+
+.input-group .form-control::placeholder {
+  color: #777;
+  font-size: 14px;
+}
+
+.input-group .form-control {
+  border: none;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.input-group .form-control.form-hover {
+  border-right: 1px solid #7367f0;
+  border-left: 1px solid #7367f0;
+}
+
+.input-group .form-control.check {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.input-group .input-group-text {
+  background-color: white;
+  color: #626161;
+  border: none;
+}
+
+.input-group .input-group-text .bg-ccc {
+  background-color: #ccc;
+}
+
+.marged {
+  color: red;
+}
+
+.input-group .btn {
+  border-radius: 3px;
+}
+
+.input-group .hover-primary-dropdown:hover {
+  background-color: #7367f04a;
+  color: blue;
+}
+/*# sourceMappingURL=form.css.map */

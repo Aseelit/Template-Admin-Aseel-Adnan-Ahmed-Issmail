@@ -1,0 +1,131 @@
+:root {
+    --blue-color: #7367f0;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+    --text-blog-color: #b9b9c3;
+  }
+  ul {
+      list-style: none;
+  }
+.card-header {
+    background-color: transparent;
+    border-bottom: none;
+}
+.blog-list-new img {
+    max-width: 90px;
+    border-radius: 7px;
+}
+.blog-new .card-header {
+    
+}
+.blog-new .card-header .st-icon-search {
+    top: 35%;
+    right: 23px;
+    transform: translateY(-50%);
+}
+.blog-new .card-header .st-icon-search .feather-search { 
+ color: #a59898;
+}
+.blog-new .card-header input[type="search"] {
+    font-size: 14px;
+    color: #888;
+    border: 1px solid #c9c9c9;
+    margin-bottom: 25px;
+}
+.blog-new .card-header input[type="search"]:focus {
+    border-color: var(--blue-color);
+   
+}
+.blog-new .card-title {
+    color: #b9b9c3;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.blog-list-new {
+    color: #7a7a81;
+    font-size: 15px;
+}
+.blog-list-new .text-question {
+    color:#5e5873;
+    cursor: pointer;
+}
+.blog-list-new .text-question:hover {
+    color: var(--blue-color);;
+}
+.blog-list-new .text-date {
+    color: var(--text-blog-color);
+    font-size: 15px;
+}
+.user-post {
+    font-weight: 500;
+    font-size: 17px;
+    word-spacing: -1px;
+}
+.post-menu {
+  border: 1px solid #c9c9c9;
+  margin-right: 10px !important;
+}
+@media(max-width: 767px) {
+    .post-menu {
+        margin-right: 10px !important;
+      }
+}
+.post-menu li:not(:last-child) {
+  border-bottom: 1px solid #c9c9c9;
+}
+.hover-primary:hover {
+    color: var(--blue-color);
+}
+.action-post {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 21px;
+}
+
+.pd-l-0{
+  padding-left: 0;
+}
+.color-text-blog {
+    color: var(--text-blog-color);
+}
+.comment-user {
+    font-size: 15px;
+    font-weight: 500;
+}
+.comment-body,.action-comment ul li a,.action-comment ul li span {
+    font-size: 14px;
+    font-weight: 500;
+}
+.comment-body {
+    margin-bottom: 3px;
+}
+.create-comment {
+    padding-top: 20px;
+}
+.create-comment .form-control {
+    width: 95%;
+    margin:0 auto;
+}
+.create-comment .form-control::placeholder {
+    font-size: 13px;
+    color: var(--text-blog-color);
+    
+}
+
+.feather-camera,
+.feather-send {
+    position: absolute;
+    top: 33%;
+    transform: translateY(-50%);
+}
+.feather-camera {
+    right: 71px;
+    color: black;
+}
+.feather-send {
+    right: 30px;
+    color: var(--blue-color);
+}

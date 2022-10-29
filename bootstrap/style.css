@@ -1,0 +1,80 @@
+:root {
+    --blue-color: #7367f0;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+  }
+ 
+  body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+  }
+  *:focus {
+    outline: none;
+  }
+ 
+.textarea {
+    height: 100px;
+    border: 1px solid #ebe9f1;
+    font-size: 14px;
+}
+.form-float {
+    position: relative;
+}
+.form-float >label {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    transition: 0.2s;
+}
+.textarea:focus .form-float >label  {
+  top: -30px;
+  color: red;
+}
+.teaxtarea-counter-val {
+    padding: 0 5px;
+    position: relative;
+    top: 1px;
+    font-size: 10px;
+}
+
+
+.form-check-input:checked {
+    background-color: #7367f0;
+    border-color: #7367f0;
+}
+.form-check-input.check-primary:checked {
+    background-color: #7367f0;
+    border-color: #7367f0;
+}
+.form-check-input.check-success:checked {
+    background-color: #2abc6b;
+    border-color: #2abc6b;    
+}
+.form-check-input.check-warning:checked {
+    background-color: #ffa045;
+    border-color: #ffa045;
+}
+.form-check-input.check-info:checked {
+    background-color: #0ac9e0;
+    border-color: #0ac9e0;
+}
+.form-check-input.check-secondry:checked {
+    background-color: #82868b;
+    border-color: #82868b;
+}
+.form-check-input.check-danger:checked {
+    background-color: #ea5455;
+    border-color: #ea5455;
+}
+.form-check-input:checked {
+    box-shadow: none;
+}
+.form-check-input[type="radio"]:checked {
+background-image: none;
+}
+.form-check-label {
+    color: #998c8c;
+}

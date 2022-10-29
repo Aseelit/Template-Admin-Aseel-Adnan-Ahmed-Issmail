@@ -1,0 +1,36 @@
+%label {
+    color: #818183;
+    font-size: 15px;
+}
+
+.form-basic {
+    padding-bottom: 20px;
+    .row {
+        column-gap: 5px;
+        row-gap: 20px;
+    }
+    label {
+      @extend %label;
+    }
+    .form-control {
+        margin-top: 2px;
+        &::placeholder {
+            color: #777;
+            transition: 0.6s;
+        }
+        &:focus::placeholder {
+           padding-left: 4px;
+        }
+    }
+  
+}
+
+.form-size {
+    .row {
+        column-gap: 5px;
+        row-gap: 20px;
+        label {
+            @extend %label;
+          }
+    }
+}
