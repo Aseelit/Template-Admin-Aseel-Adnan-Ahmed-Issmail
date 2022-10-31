@@ -1,28 +1,8 @@
 @charset "UTF-8";
-:root {
-  --blue-color: #0075ff;
-  --blue-alt-color: #0d69d5;
-  --orange-color: #f59e0b;
-  --green-color: #22c55e;
-  --red-color: #f44336;
-  --grey-color: #888;
-}
 body {
   background-color: #f8f8f8;
-  height: 200vw;
 }
-::-webkit-scrollbar {
-  width: 15px;
-}
-::-webkit-scrollbar-track {
-background-color: #fff;
-}
-::-webkit-scrollbar-thumb {
-background-color:var(--blue-color);
-}
-::-webkit-scrollbar-thumb:hover {
-background-color: var(--blue-color);
-}
+
 .open {
   background-color: whitesmoke;
 }

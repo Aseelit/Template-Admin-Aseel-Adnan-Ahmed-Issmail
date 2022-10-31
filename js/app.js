@@ -113,4 +113,23 @@ $(document).ready(function () {
     },
   });
   // $(".form-check-input:not(:checked)")
+  $(".dropdown .btn").on({
+    focus: function () {
+      $(this).css({
+        backgroundColor:" #000000c2",
+        borderColor: "#000000c2",
+        outline: "0",
+        boxShadow: "none",
+      });
+    },
+    blur: function () {
+      $(this).css({
+        backgroundColor:"#fff",
+        borderColor: "#0d6efd",
+        outline: "0",
+        color: "#0d6efd",
+        boxShadow: "none",
+      });
+    },
+  })
 });
