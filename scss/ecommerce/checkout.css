@@ -1,0 +1,81 @@
+.breadcrumb-item.active::before h3 {
+    content: "";
+    position: absolute;
+    width: 111px;
+    height: 3px;
+    background-color: var(--blue-color);
+    bottom: 0;
+    left: 47%;
+    transform: translateX(-50%);
+}
+.sidbar-shop {
+    order: 1;
+}
+.section-shop {
+    order: 0;
+}
+.shop-card {
+    flex-basis: 100%;
+    height: fit-content;
+    transition: 0.5s;
+}
+
+.shop-compony {
+    color: var(--text-blog-color);
+    font-size: 14px;
+}
+.shop-title {
+    padding-left: 0;
+}
+.shop-compon {
+    padding-left: 0;
+}
+.shop-card .box-body-shop {
+    flex-basis: 40%;
+    padding: 15px 0;
+    gap: 2px;
+    border-right: 1px solid #ccc
+}
+.shop-card .img-shop {
+    flex-basis: 30%;
+}
+.shop-card .btn-footer {
+    flex-basis: 30%;
+    padding-left: 5px;
+}
+@media(max-width: 767px) {
+    .shop-card {
+        margin: 20px 4px;
+    }
+    .shop-card .btn-footer {
+        flex-basis: 100%;
+        width: 100%;
+      
+        padding:0 10px 10px;
+    }
+    .shop-card .img-shop {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .shop-card .box-body-shop {
+        flex-basis: 100%;
+        width: 100%;
+        padding-left: 10px;
+    }
+}
+.state-shoping {
+    background-color: rgba(40, 199, 111, 0.12);
+    color: #28c76f;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.price {
+    font-size: 20px;
+    font-weight: normal;
+}
+.btn-secondary {
+    color: #000;
+    background-color: #d3d6d978;
+}

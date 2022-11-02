@@ -132,4 +132,27 @@ $(document).ready(function () {
       });
     },
   })
+  $(".mune-shop-toggle").on("click",function() {
+    $(".sidbar-shop").css({
+    display: "block",
+    position: "absolute",
+    top: "-97px",
+    zIndex: "1000000",
+    left: "0",
+    width: "70%",
+    height: "100vh",
+    overflowY: "scroll"
+    })
+    document.body.style.overflow = "hidden";
+    $(".cov").addClass("show-cover-sidbar");
+  });
+  $(".cov").on("click",function() {
+    setTimeout(() => {
+      $(this).removeClass("show-cover-sidbar");
+    $(".sidbar-shop").css({
+      display: "none",
+    },0)
+    }, 200);
+    document.body.style.overflow = "visible";
+  })
 });
